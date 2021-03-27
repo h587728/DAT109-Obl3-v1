@@ -16,8 +16,6 @@ public class Terning {
     public void trill() {
         Random random = new Random();
         this.verdi = random.nextInt(6) + 1;
-
-
     }
 
     public int getVerdi() {
@@ -27,5 +25,5 @@ public class Terning {
     public void setVerdi(int verdi) {
         this.verdi = verdi;
     }
-
+    
 }
